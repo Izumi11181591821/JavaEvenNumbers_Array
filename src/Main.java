@@ -6,7 +6,8 @@ public class Main {
         int[] random_numbers = {14, 18, 36, 43, 45};
 
         int sumEven = 0;
-        for (int num : random_numbers) {
+        for (int i = 0; i < random_numbers.length; i++) {
+            int num = random_numbers[i];
             if (num % 2 == 0) {
                 sumEven += num;
             }
